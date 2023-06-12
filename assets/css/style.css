@@ -14,6 +14,15 @@ main aside img {
   height: auto; /* Maintain aspect ratio */
 }
 
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+}
 .container {
   background-color: gray;
 }
@@ -27,6 +36,9 @@ header {
 nav {
   display: flex;
   background-color: #526D82;
+  justify-content: center; /* Aligns items horizontally */
+  align-items: center; /* Aligns items vertically */
+  padding: 14px 20px;
 }
 
 nav p {
@@ -63,7 +75,7 @@ footer {
   color: #fff;
 }
 
-/* Image Placeholders */
+/* Image  */
 .sample-img {
   background-color: #fff;
   width: 100%;
@@ -83,10 +95,16 @@ footer {
   font-size: 16px;
   cursor: pointer;
   border-radius: 4px;
+  justify-content: center;
+  align-items: center;
 }
 
+section section button {
+  display: flex;
+  justify-content: center; /* Aligns items horizontally */
+  align-items: center; /* Aligns items vertically */
+}
 
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
