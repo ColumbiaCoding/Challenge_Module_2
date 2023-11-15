@@ -1,79 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500&display=swap" rel="stylesheet">
-    <title>Challenge 2</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel's Dev Portfolio</title>
+    <!-- The reset file should load first to avoid reverting styles -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/customstyle.css" />
 </head>
+<header class="header">
+    <div class="header_content">
+        <nav>
+            <ul id="headerlinks">
+                <li>
+                    <h1>Gabriel Regus</h1>
+                </li>
+                <li class="linkwrapper">
+                    <a href="#about">About Me</a>
+                </li>
+                <li class="linkwrapper">
+                    <a href="#knowledge">Knowledge</a>
+                </li>
+                <li class="linkwrapper">
+                    <a href="#portfolio">Projects</a>
+                </li>
+                <li class="linkwrapper">
+                    <a href="#contactme">Contact Me</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+</header>
+
 <body>
-    <!-- Header -->
-    <header>
-      <h1>Gabriel's Project Portfolio</h1>
-      <p>Coding. The last frontier</p>
-    </header>
 
-    <!-- Navbar -->
-    <nav>
-      <p>
-        <a href="#">Project 1</a>
-        <a href="#">Project 2</a>
-        <a href="#">Project 3</a>
-        <a href="#">Project 4</a>
-      </p>
-    </nav>
-
-    <!-- Body -->
     <main>
-      <aside>
-        
-        <div class="container">
-            <img src="./assets/images/Gabriel Profile pic.jpg" alt="Gabe's profile pic">
+
+
+        <section id="about">
+
+            <div id="aboutcontent">
+
+                <img src="./assets/images/profilepic.jpg" alt="Picture of a person" id="profilepic">
+                <h2>About Me</h2> My name is Gabriel Regus, I'm a graduate from the full stack development bootcamp at Columbia University Engineering.
+
+                Welcome to the dynamic world of energy technology, where innovation meets sustainability, and the power of code transforms the way we harness, manage, and distribute energy resources. As an accomplished energy tech practitioner with full-stack coding expertise, you navigate the intersection of cutting-edge technology and the evolving energy landscape with finesse.
+
+            </div>
+        </section>
+        <div id="knowledge">
+
         </div>
-        
-        <ul>
-            Email: <a href="mailto:notmyemail@gmail.com">notmyemail@gmail.com</a>
+        <section>
+            <h2>Knowledge</h2>
+            <p>
+                In an era defined by the imperative to transition towards cleaner, more efficient energy solutions, your proficiency in full-stack coding is the key to unlocking the potential of next-generation systems. Your skill set goes beyond traditional boundaries, encompassing not only the intricacies of backend and frontend development but also the nuanced understanding of how these technologies seamlessly integrate into the intricate tapestry of energy infrastructure.
 
-        </ul>
-      </aside>
+As the energy sector undergoes unprecedented transformations, your role is pivotal in driving the adoption of sustainable practices, optimizing energy workflows, and creating innovative solutions to address the challenges of tomorrow. Whether it's designing responsive user interfaces for energy management platforms, implementing robust algorithms for predictive maintenance, or architecting scalable systems for smart grids, your expertise ensures that the energy tech landscape evolves in tandem with the demands of a rapidly changing world.
+            </p>
+        </section>
+        </div>
 
-      <section>
-        <section class="card">
-            <header>Javascript Projects</header>
-            <img src="./assets/images/javascript.jpg" alt="Javascript" />
-            <button class="gray-button">Click To View Projects</button>
-          </section>
-          <section class="card">
-            <header>Python Projects</header>
-            <img src="./assets/images/python.jpg" alt="Python" />
-            <button class="gray-button">Click To View Projects</button>
-          </section>
-          <section class="card">
-            <header>API integrations</header>
-            <img src="./assets/images/webapis.jpg" alt="WebApis" />
-            <button class="gray-button">Click To View Projects</button>
-          </section>
-          <section class="card">
-            <header>FinTech Projects</header>
-            <img src="./assets/images/fintech.jpg" alt="Fin Tech" />
-            <button class="gray-button">Click To View Projects</button>
-          </section>
-          <section class="card">
-            <header>Cloud Computing Projects</header>
-            <img src="./assets/images/cloud computing.jpg" alt="Cloud" />
-            <button class="gray-button">Click To View Projects</button>
-          </section>
-      </section>
+        <section id="portfolio">
+            <h2>Projects</h2>
+            <ul class="projects">
+                <!-- full width project -->
+                <li class="item1">
+                    <figure>
+                        <a href="https://github.com/ColumbiaCoding/refactorReactor"><img src="./assets/images/refactor.png"
+                                alt="screenshot of first project" alt="image of first project" id=primeimg></a>
+                        <figcaption>Code Refactor</figcaption>
+                    </figure>
+                </li>
+                <!-- secondary projects -->
+                <li class="item2">
+                    <figure>
+                        <a href="link to "><img src="./assets/images/onair.jpg"
+                                alt="image of second project an on air sign" id=secimg></a>
+                        <figcaption>on air sign</figcaption>
+                    </figure>
+
+                </li>
+
+                <li class="item3">
+                    <figure>
+                        <a href="https://github.com/ColumbiaCoding/PassGen"><img src="./assets/images/passGen.png"
+                                alt="screenshot of first project" alt="image of 3rd project a password generator"
+                                id=secimg></a>
+                        <figcaption>Password generator</figcaption>
+                    </figure>
+                </li>
+                <li class="item4">
+                    <figure>
+                        <a href="https://github.com/ColumbiaCoding/WhizQuiz"><img src="./assets/images/eventLister.png"
+                                alt="screenshot of project 2" alt="" id=secimg></a>
+                        <figcaption>Whiz Quiz full stack app</figcaption>
+                         </figure>
+                </li>
+                <li class="item5">
+                    <figure>
+                        <a href="https://github.com/ColumbiaCoding/LongDistanceCall"
+                                alt="screenshot of first project" alt="" id=secimg></a>
+                        <figcaption>First collaborative Project</figcaption>
+                        
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        </div>
+
+        <section id="contactme">
+            <h2>Contact Form</h2>
+
+            <div class="form">
+                <form action="/action_page.">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="enter a contact email">
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="button" value="Submit">
+                </form>
+            </div>
+        </section>
+
+
     </main>
-
-    <!-- Footer -->
     <footer>
-
-          </form>
-          
+        <span>Copyright Gabriel Regus</span>
     </footer>
 </body>
+
 </html>

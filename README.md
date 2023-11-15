@@ -1,5 +1,5 @@
-# Challenge_Module_2
-Advanced CSS Challenge
+# Gabriel's Developer Portfolio
+
 ## Table of Contents
 
 * [Description](#description)
@@ -9,26 +9,29 @@ Advanced CSS Challenge
 * [Technologies Used](#technologies)
 * [Licence](#license)
 * [Credits](#credits)
-
 ## Description
 
-Welcome to Gabriel's portfolio of web projects, where creativity, innovation, and expertise in web development come to life. With a passion for crafting digital experiences that engage, inform, and inspire, Gabriel has curated a collection of impressive web projects that showcase his  talents and skills.
+This is a developer Portfolio for Gabriel Regus
 
 ## Links
-https://github.com/ColumbiaCoding/Gabes_Portfolio_Lyfe
+
+<a href="https://github.com/ColumbiaCoding/Gabes_Portfolio_Lyfe/">Deployed</a>
 
 ## Purpose
 
-The purpose of this assignment is to deploy a portfolio of web projects. Feel free to explore Gabriel's portfolio to witness the fusion of technology and artistry in web development, and discover how they can bring your digital vision to life. 
-
+This is a portfolio webesite 
 ## Screenshots
+
+<img src= "./assets/images/GabrielDevPortfolio.png">
 
 ## Technologies
 
-HTML
-CSS
-JavaScript
+<img src="https://img.shields.io/badge/Built%20with-HTML5-blue">
+
+<img src="https://img.shields.io/badge/Built%20with-CSS3-blue">
 
 ## License
 
-MIT License 
+<img src="https://img.shields.io/badge/license-MIT-blue">
+
+## Credits

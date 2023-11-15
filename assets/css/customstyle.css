@@ -1,0 +1,187 @@
+/* default css */
+
+* {
+    scroll-behavior: smooth;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    padding: 5%;
+    scroll-padding-top: 35px;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+img {
+    height: 130px;
+    width: 130px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* adjusting the anchor scroll location */
+/* #about{
+    
+        /* padding-top: 85px;
+        margin-top: -40px; */
+    /* }
+/* #knowledge{ */
+        /* padding-top: 85px;
+        margin-top: -40px; 
+    }*/
+
+ /* #contactme {
+     padding-top: 85px;
+    margin-top: -40px; 
+}  */
+figcaption{
+    color: white;
+}
+section {
+    border-top: 2px;
+    border-top-color: black;
+    border-top-style: solid;
+    /* padding-top: 85px;
+    margin-top: 40px; */
+    background-color: grey;
+    min-height: 500px;
+}
+
+
+/* Setting header static when scrolling */
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(69, 68, 68);
+    color: #eee;
+    height: 30px;
+}
+
+.projects {
+    background-color: grey;
+}
+
+/* Setting footer static when scrolling */
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(69, 68, 68);
+    color: #eee;
+}
+
+/* css for formatting of contact form */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(69, 68, 68);
+    }
+
+    #profilepic {
+        float: left;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html{
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: flex-end;
+    }
+
+    #profilepic {
+        height: 130px;
+        width: 130px;
+        float: left;
+    }
+
+    #primeimg {
+        width: 400px;
+        height: 250px;
+    }
+
+    /* created a project gallery for portfolio */
+    .projects {
+        display: block;
+        background-color: grey;
+        display: grid;
+        grid-template-areas:
+            "pro1 pro1"
+            "pro2 pro3"
+            "pro4 pro5";
+            justify-items: center;
+    }
+
+    .item1 {
+        grid-area: pro1;
+    }
+
+    .item2 {
+        grid-area: pro2;
+    }
+
+    .item3 {
+        grid-area: pro3;
+    }
+
+    .item4 {
+        grid-area: pro4;
+    }
+
+    .item5 {
+        grid-area: pro5;
+    }
+}
