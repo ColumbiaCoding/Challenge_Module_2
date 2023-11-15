@@ -15,7 +15,11 @@ This is a developer Portfolio for Gabriel Regus
 
 ## Links
 
-<a href="https://github.com/ColumbiaCoding/Gabes_Portfolio_Lyfe/">Deployed</a>
+<a href="https://github.com/ColumbiaCoding/Gabes_Portfolio_Lyfe/">Git Hub Repo</a>
+
+<a href="https://columbiacoding.github.io/Gabes_Portfolio_Lyfe/">Deployed</a>
+
+
 
 ## Purpose
 
